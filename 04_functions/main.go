@@ -5,6 +5,7 @@ import "fmt"
 /**
 	- argument should always be followed by its type
 	- u also have to specify a return type (unless its void then u leave it empty)
+	- there are 2 types of functions (value reciever and pointer reciever) -> Refer to lesson 11 (structs)
 **/
 func greeting(name string) string {
 	return "Hello " + name
